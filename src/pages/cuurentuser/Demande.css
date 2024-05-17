@@ -1,0 +1,37 @@
+/* DemandeUser.module.css */
+
+.navbar {
+    @apply bg-body-tertiary;
+  }
+  
+  .modal {
+    @apply show;
+  }
+  
+  .formGroup {
+    @apply mb-3;
+  }
+  
+  .select {
+    @apply form-select;
+  }
+  
+  .buttonContainer {
+    @apply p-4;
+  }
+  
+  .title {
+    @apply text-2xl font-bold mb-5;
+  }
+  
+  .table {
+    @apply min-w-full divide-y divide-gray-200;
+  }
+  
+  .tableRow {
+    @apply hover:bg-gray-100;
+  }
+  
+  .tableButton {
+    @apply py-1 px-2 rounded-md;
+  }
